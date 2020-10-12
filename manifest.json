@@ -1,0 +1,30 @@
+{
+"name": "KingParadise",
+"short_name": "KingParadise",
+"description": "Conforto e Diversão em qualquer lugar.",
+"start_url": "index.html",
+"scope": ".",
+"background_color": "#EEE",
+"theme_color": "#4A148C",
+"display": "standalone",
+"orientation": "portrait-primary",
+"dir": "ltr",
+"lang": "pt-BR",
+"icons": [{
+"src": "resources/icons/64.png",
+"type": "image/png",
+"sizes": "64x64"
+}, {
+"src": "resources/icons/128.png",
+"type": "image/png",
+"sizes": "128x128"
+}, {
+"src": "resources/icons/256.png",
+"type": "image/png",
+"sizes": "256x256"
+}, {
+"src": "resources/icons/512.png",
+"type": "image/png",
+"sizes": "512x512"
+}]
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+
+    <script src="sw.js"></script>
+    <script src="vendors/js/jquery.js"></script>  
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img src="resources/img/logo.png" alt="logo" class="logo">
+                <ul class="main-nav">
+                    <li><a href="#photos">Galeria</a></li>
+                    <li><a href="#app">Baixar App</a></li>
+                    <li><a href="#citys">Cidades atendidas</a></li>
+                    <li><a href="#depo">Depoimentos</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>KingParadise.<br>
+                Conforto e Diversão em qualquer lugar.</h1>
+            <a class="btn btn-full" href="#">Reservar agora</a>
+            <a class="btn btn-ghost" href="#">Mais informações</a>
+        </div>
+    </header>
+    <section class="section-features">
+        <div class="row">
+            <h2>KingParadise &mdash; Sobre...</h2>
+            <p class="long-copy">
+                A KingParadise é uma rede de Resorts localizada em diversas praias pelo Brasil.<br>
+                Para você que quer relaxar, conhecer novos lugares e se divertir com amigos ou família seu lugar é aqui!
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <ion-icon name="airplane-outline"></ion-icon>
+                <h3>Viagem</h3>
+                <p>Escolha um local de sua preferência.</p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <ion-icon name="medal-outline"></ion-icon>
+                <h3>Atividades</h3>
+                <p>Diversas atividades a sua escolha.</p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <ion-icon name="restaurant-outline"></ion-icon>
+                <h3>Alimentação</h3>
+                <p>Todas refeiçães inclusas no pacote.</p>
+            </div>
+            <div class="col span-1-of-4 box">
+                <ion-icon name="card"></ion-icon>
+                <h3>Pagamento</h3>
+                <p>Preço e formas de pagamento acessíveis para todos.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-photos" id="photos">
+        <ul class="images-showcase clearfix">
+            <li>
+                <figure class="photo"><img src="resources/img/1.jpg" alt="texto da imagem"></figure>
+            </li>
+            <li>
+                <figure class="photo"><img src="resources/img/2.jpg" alt="texto da imagem"></figure>
+            </li>
+            <li>
+                <figure class="photo"><img src="resources/img/3.jpg" alt="texto da imagem"></figure>
+            </li>
+            <li>
+                <figure class="photo"><img src="resources/img/4.jpg" alt="texto da imagem"></figure>
+            </li>
+        </ul>
+        <ul class="images-showcase clearfix">
+            <li>
+                <figure class="photo"><img src="resources/img/5.jpg" alt="texto da imagem"></figure>
+            </li>
+            <li>
+                <figure class="photo"><img src="resources/img/6.jpg" alt="texto da imagem"></figure>
+            </li>
+            <li>
+                <figure class="photo"><img src="resources/img/7.jpg" alt="texto da imagem"></figure>
+            </li>
+            <li>
+                <figure class="photo"><img src="resources/img/8.jpg" alt="texto da imagem"></figure>
+            </li>
+        </ul>
+    </section>
+    <section class="section-steps" id="app">
+        <div class="row">
+            <h2>Esperando o que? &mdash; Bastam 3 passos</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img src="resources/img/cel.png" alt="Seu pedido pelo Iphone" class="app-screen">
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="step">
+                    <div>1</div>
+                    <p>Selecione qual plano melhor se encaixa no seu bolso! </p>
+                </div>
+                <div class="step">
+                    <div>2</div>
+                    <p>Escolha uma data!!</p>
+                </div>
+                <div class="step">
+                    <div>3</div>
+                    <p>E se prepare para a viagem!</p>
+                </div>
+
+                <a href="#" class="btn-app"><img src="resources/img/google play.png" alt="botão google play"></a>
+                <a href="#" class="btn-app"><img src="resources/img/apple store.jpg" alt="botão apple store"></a>
+            </div>
+        </div>
+    </section>
+    <section class="section-cities" id="citys">
+        <div class="row">
+            <h2>Alguns lugares com reserva disponivel</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/SantaCatarina.jpg" alt="SantaCatarina">
+                <h3>Santa Catarina</h3>
+                <div class="city-feature">
+                    <ion-icon name="location-outline"></ion-icon>
+                    Av. Ipiranga, 999
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="call-outline"></ion-icon>
+                    (51) 9999-9999
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <a href="#">@KingParadise</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/PortoAlegre.jpg" alt="Porto Alegre">
+                <h3>Porto Alegre</h3>
+                <div class="city-feature">
+                    <ion-icon name="location-outline"></ion-icon>
+                    Av. Ipiranga, 999
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="call-outline"></ion-icon>
+                    (51) 9999-9999
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <a href="#">@KingParadise</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/Rj.png" alt="Rio de Janeiro">
+                <h3>Rio de Janeiro</h3>
+                <div class="city-feature">
+                    <ion-icon name="location-outline"></ion-icon>
+                    Av. Ipiranga, 999
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="call-outline"></ion-icon>
+                    (51) 9999-9999
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <a href="#">@KingParadise</a>
+                </div>
+            </div>
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/Can.jpg" alt="Canions">
+                <h3>Cambará do Sul</h3>
+                <div class="city-feature">
+                    <ion-icon name="location-outline"></ion-icon>
+                    Av. Ipiranga, 999
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="call-outline"></ion-icon>
+                    (51) 9999-9999
+                </div>
+                <div class="city-feature">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <a href="#">@KingParadise</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-testimonials" id="depo">
+        <div class="row">
+            <h2>Melhorando a qualidade de vida das pessoas</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt fugit distinctio tempore dignissimos.
+                    Repudiandae.
+                    <cite>
+                        <img src="resources/img/perfil.webp" alt=""> Exemplo
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt fugit distinctio tempore dignissimos.
+                    Repudiandae.
+                    <cite>
+                        <img src="resources/img/perfil.webp" alt=""> Exemplo
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-3">
+                <blockquote>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt fugit distinctio tempore dignissimos.
+                    Repudiandae.
+                    <cite>
+                        <img src="resources/img/perfil.webp" alt=""> Exemplo
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">App IOS</a></li>
+                    <li><a href="#">App Android</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>Copyright &copy; 2020 - KingParadise. Todos direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="swRegister.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+<script>
+    $('nav a').click(function(e){
+        e.preventDefault();
+        var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top,
+        menuHeight = $('nav').innerHeight();
+
+        $('html, body').animate({
+            scrollTop: targetOffset - menuHeight 
+        }, 500);
+    })
+</script>
+</html>
