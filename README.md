@@ -2,7 +2,7 @@
 <img src="https://github.com/leomvidal10/LandingPage/blob/main/resources/img/logo.png?raw=true" alt="logo">
 </h1>
 <h1 align="center">
-Projeto LandingPage
+Projeto LandingPage SPA
 </h1>
 <p align="center">
 <a href="https://leomvidal10.github.io/LandingPage/">Teste clicando aqui.</a>
