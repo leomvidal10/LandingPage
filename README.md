@@ -10,3 +10,6 @@ Projeto LandingPage SPA
 <div>
 <img src="https://github.com/leomvidal10/LandingPage/blob/main/resources/img/img.png?raw=true" alt="preview">
 </div>
+<div align="center">
+<img src="https://github.com/leomvidal10/LandingPage/blob/main/resources/img/installApp.png?raw=true" alt="preview">
+</div>
